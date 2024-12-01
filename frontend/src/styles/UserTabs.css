@@ -1,0 +1,89 @@
+/* userTabs.css */
+
+/* Overall container */
+.user-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Tabs container */
+  .tabs-container {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    scrollbar-width: none; /* For Firefox */
+  }
+  
+  /* Individual tab */
+  .tab {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    white-space: nowrap;
+  }
+  
+  .tab:hover {
+    background-color: #e6f7ff;
+  }
+  
+  /* Avatar */
+  .avatar {
+    width: 32px;
+    height: 32px;
+    background-color: #cccccc;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+  }
+  
+  /* Name */
+  .name {
+    font-size: 14px;
+    color: #333333;
+  }
+  
+  /* Highlight styles */
+  .highlight-pink {
+    border-color: #e94e77;
+  }
+  
+  .highlight-yellow {
+    border-color: #f4c542;
+  }
+  
+  /* Messaging button */
+  .messaging-button {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .messaging-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .messaging-button i {
+    font-size: 16px;
+    margin-right: 8px;
+  }
+  

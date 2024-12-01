@@ -1,0 +1,81 @@
+/* navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Background color */
+    padding: 10px 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .breadcrumb {
+    font-size: 14px;
+    color: #888888;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between elements */
+  }
+  
+  .role-badge {
+    font-size: 12px;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+  
+  .process-owner {
+    background-color: #f4c542; /* Yellow badge */
+  }
+  
+  .admin {
+    background-color: #e94e77; /* Pink badge */
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .user-name {
+    font-size: 14px;
+    color: #333333;
+  }
+  
+  .user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #cccccc;
+  }
+  
+  .logout-button {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #333333;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .logout-button:hover {
+    color: #e94e77;
+  }
+  
+  .bi {
+    font-size: 18px; /* Adjust icon size */
+    color: #555555;
+  }
+  
+  .bi:hover {
+    color: #e94e77; /* Highlight on hover */
+  }
+  
