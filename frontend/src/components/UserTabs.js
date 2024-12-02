@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/UserTabs.css"; // Ensure the CSS is linked
+import "../styles/UserTabs.css"; 
 
 const UserTabs = () => {
   const users = [

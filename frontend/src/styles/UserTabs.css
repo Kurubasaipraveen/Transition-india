@@ -1,6 +1,4 @@
-/* userTabs.css */
 
-/* Overall container */
 .user-tabs {
     display: flex;
     align-items: center;
@@ -9,12 +7,13 @@
     padding: 10px 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
+    width: 1350px;
   }
   
   /* Tabs container */
   .tabs-container {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     overflow-x: auto; /* Enables horizontal scrolling */
     scrollbar-width: none; /* For Firefox */
   }
@@ -55,7 +54,6 @@
     color: #333333;
   }
   
-  /* Highlight styles */
   .highlight-pink {
     border-color: #e94e77;
   }

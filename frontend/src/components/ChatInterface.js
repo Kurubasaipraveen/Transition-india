@@ -4,7 +4,6 @@ import "../styles/ChatInterface.css";
 const ChatInterface = () => {
   return (
     <div className="chat-interface">
-      {/* Tabs Section */}
       <div className="chat-tabs">
         <button className="tab active">Conversation</button>
         <button className="tab">Address Update</button>
@@ -13,14 +12,12 @@ const ChatInterface = () => {
         <button className="escalate-button">Escalate</button>
       </div>
 
-      {/* Conversation Area */}
       <div className="chat-conversation">
         <div className="conversation-header">
           <span className="active-tab">Conversation</span>
           <span>Attachment</span>
         </div>
 
-        {/* Messages */}
         <div className="messages">
           <div className="message received">
             <div className="message-header">
@@ -48,7 +45,6 @@ const ChatInterface = () => {
         </div>
       </div>
 
-      {/* Message Input Section */}
       <div className="message-input-section">
         <div className="message-options">
           <label>

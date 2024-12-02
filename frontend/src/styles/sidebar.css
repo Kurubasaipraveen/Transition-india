@@ -33,7 +33,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
-    gap: 10px; /* Adjust for spacing between icons and text */
+    gap: 10px;
   }
   
   .menu-item:hover {
@@ -52,5 +52,5 @@
   .menu-item svg, 
 .menu-item i {
     font-size: 18px;
-    color: #ffffff; /* Ensures icons are white */
+    color: #ffffff;
 }

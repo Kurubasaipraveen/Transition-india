@@ -1,22 +1,14 @@
 import React from "react";
-import "../styles/navbar.css"; // Ensure the CSS file exists and is properly linked
+import "../styles/navbar.css"; 
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      {/* Breadcrumb */}
       <div className="breadcrumb">Chat / Feed Chat</div>
-
-      {/* Right-side elements */}
       <div className="navbar-right">
-        {/* Home Icon */}
         <i className="bi bi-house"></i>
-
-        {/* Role Badges */}
         <div className="role-badge process-owner">Process Owner HOD</div>
         <div className="role-badge admin">Admin</div>
-
-        {/* User Info */}
         <div className="user-info">
           <span className="user-name">Palak Bansal</span>
           <img
@@ -24,11 +16,9 @@ const Navbar = () => {
             alt="User Avatar"
             className="user-avatar"
           />
-          {/* Settings Icon */}
           <i className="bi bi-gear"></i>
         </div>
 
-        {/* Logout Button */}
         <button className="logout-button">
           <i className="bi bi-box-arrow-right"></i> Logout
         </button>

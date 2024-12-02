@@ -14,7 +14,6 @@ const Dashboard = () => {
         </div>
       </div>
       
-      {/* Info Cards */}
       <div className="info-card">
         <div className="card-header">
           <span>Customer ID</span>
